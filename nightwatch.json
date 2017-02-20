@@ -35,10 +35,36 @@
       }
     },
 
+    "chrome" : {
+      "use_xpath": true,
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true
+      }
+    },
+
     "firefox" : {
+      "use_xpath": true,
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "screenshots"
+      },
       "desiredCapabilities": {
         "marionette": true,
-        "browserName": "firefox"
+        "browserName": "firefox",
+        "javascriptEnabled": true
       }
     },
 

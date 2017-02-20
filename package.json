@@ -8,5 +8,8 @@
     "selenium-server": "~3.0.1",
     "geckodriver": "~1.4.0",
     "chromedriver": "~2.27.3"
+  },
+  "bin": {
+    "abc-watch": "bin/abc-watch.js"
   }
 }

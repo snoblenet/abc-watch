@@ -55,6 +55,14 @@ module.exports = {
     'facebook-share-button': {
       selector: '//div[@class="fb-share-button fb_iframe_widget"]',
       locateStrategy: 'xpath'
+    },
+    'download-audio-button': {
+      selector: '//a[@class="ico ico-download"]',
+      locateStrategy: 'xpath'
+    },
+    'audio-file': {
+      selector: '//source[@type="audio/mpeg"]',
+      locateStrategy: 'xpath'
     }
   }
 };
