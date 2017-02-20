@@ -60,6 +60,14 @@ module.exports = {
       selector: '//a[@class="ico ico-download"]',
       locateStrategy: 'xpath'
     },
+    'listen-now-audio-button': {
+      selector: '//a[@class="ico ico-audio modrewrite"]',
+      locateStrategy: 'xpath'
+    },
+    'listen-now-audio-player': {
+      selector: '//div[@class="rp__playingPanel__playing"]',
+      locateStrategy: 'xpath'
+    },
     'audio-file': {
       selector: '//source[@type="audio/mpeg"]',
       locateStrategy: 'xpath'
