@@ -31,6 +31,30 @@ module.exports = {
     'on-air-guide-right-arrow': {
       selector: '//div[@class="on-air-wrapper"]/div[@id="right-arrow"]',
       locateStrategy: 'xpath'
+    },
+    'search-box': {
+      selector: '//input[@id="search-simple-input-query"]',
+      locateStrategy: 'xpath'
+    },
+    'search-button': {
+      selector: '//input[@id="search-simple-input-submit"]',
+      locateStrategy: 'xpath'
+    },
+    'search-results-summary': {
+      selector: '//div[@class="ct-search-header"]',
+      locateStrategy: 'xpath'
+    },
+    'twitter-share-button': {
+      selector: '//iframe[@id="twitter-widget-0"]',
+      locateStrategy: 'xpath'
+    },
+    'twitter-share-pop-up-heading': {
+      selector: '//text()[contains(., "Share a link with your followers")]',
+      locateStrategy: 'xpath'
+    },
+    'facebook-share-button': {
+      selector: '//div[@class="fb-share-button fb_iframe_widget"]',
+      locateStrategy: 'xpath'
     }
   }
 };
