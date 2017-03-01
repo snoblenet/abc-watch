@@ -9,15 +9,15 @@ Ensure you have installed Node and NPM:
 https://docs.npmjs.com/getting-started/installing-node
 
 ### Installation
-From the directory where you wish to install `abc-watch`, run:
+From the directory where you wish to install `steven_noble`, run:
 ```
 git clone https://github.com/snoblenet/abc-watch.git
-cd abc-watch
+cd steven_noble
 npm install
 ```
 
 ###Use
-To run all tests, type `abc-watch` from the root level of the `abc-watch` directory.
+To run all tests, type `npm test` from the root level of the `abc-watch` directory.
 ## Future opportunities
 ### Testing the API for multiple ABC Radio programs
 As per the tech challenge, `tests/abc_radio_website/json_api_test.js` checks the actual key/value pairs provided at  http://program.abcradio.net.au/api/v1/programs/ppJj0E8g2R.json.

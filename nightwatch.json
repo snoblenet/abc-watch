@@ -8,12 +8,12 @@
 
   "selenium" : {
     "start_process" : true,
-    "server_path" : "node_modules/selenium-server/lib/runner/selenium-server-standalone-3.0.1.jar",
+    "server_path" : "./node_modules/selenium-server/lib/runner/selenium-server-standalone-3.0.1.jar",
     "log_path" : "logs",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "node_modules/chromedriver/bin/chromedriver",
-      "webdriver.gecko.driver" : "node_modules/geckodriver/bin/geckodriver",
+      "webdriver.chrome.driver" : "./node_modules/chromedriver/bin/chromedriver",
+      "webdriver.gecko.driver" : "./node_modules/geckodriver/bin/geckodriver",
       "webdriver.edge.driver" : ""
     }
   },
